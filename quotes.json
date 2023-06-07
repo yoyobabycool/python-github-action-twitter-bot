@@ -1,0 +1,82 @@
+[
+  {
+    "character": "Spider-Man",
+    "quote": "With great power comes great responsibility.",
+    "image": "https://i.imgur.com/BChpNRg.jpg"
+  },
+  {
+    "character": "Iron Man",
+    "quote": "I am Iron Man.",
+    "image": "https://i.imgur.com/Brvfk7n.jpg"
+  },
+  {
+    "character": "Captain America",
+    "quote": "I can do this all day.",
+    "image": "https://i.imgur.com/UZjIOyx.jpg"
+  },
+  {
+    "character": "Thor",
+    "quote": "I am Thor, son of Odin!",
+    "image": "https://i.imgur.com/MHANRb8.jpg"
+  },
+  {
+    "character": "Black Widow",
+    "quote": "I have red in my ledger. I’d like to wipe it out.",
+    "image": "https://i.imgur.com/kl6KX9A.jpg"
+  },
+  {
+    "character": "Hulk",
+    "quote": "Hulk smash!",
+    "image": "https://i.imgur.com/yLx5PvK.jpg"
+  },
+  {
+    "character": "Doctor Strange",
+    "quote": "The bill comes due. Always.",
+    "image": "https://i.imgur.com/z7VIneO.jpg"
+  },
+  {
+    "character": "Groot",
+    "quote": "I am Groot.",
+    "image": "https://i.imgur.com/3qglv8L.jpg"
+  },
+  {
+    "character": "Gamora",
+    "quote": "I am going to die surrounded by the biggest idiots in the galaxy.",
+    "image": "https://i.imgur.com/DnzoYIK.jpg"
+  },
+  {
+    "character": "Rocket Raccoon",
+    "quote": "Ain't no thing like me except me.",
+    "image": "https://i.imgur.com/tG9NgJz.jpg"
+  },
+  {
+    "character": "Star-Lord",
+    "quote": "I'm Star-Lord, man. Legendary outlaw.",
+    "image": "https://i.imgur.com/HvnjMUb.jpg"
+  },
+  {
+    "character": "Vision",
+    "quote": "What is grief, if not love persevering?",
+    "image": "https://i.imgur.com/lNcVq9u.jpg"
+  },
+  {
+    "character": "Scarlet Witch",
+    "quote": "I can’t control their fear. Only my own.",
+    "image": "https://i.imgur.com/ijZ6T2g.jpg"
+  },
+  {
+    "character": "Ant-Man",
+    "quote": "I'm Ant-Man. I know, it wasn't my idea.",
+    "image": "https://i.imgur.com/Z1f3qH3.jpg"
+  },
+  {
+    "character": "Falcon",
+    "quote": "Keep your friends rich, and your enemies rich, and wait to find out which is which.",
+    "image": "https://i.imgur.com/4Q4XaGJ.jpg"
+  },
+  {
+    "character": "Winter Soldier",
+    "quote": "I remember all of them.",
+    "image": "https://i.imgur.com/zJW8sbv.jpg"
+  }
+]
