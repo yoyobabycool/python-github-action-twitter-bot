@@ -15,10 +15,6 @@ jobs:
         pip install tweepy
     - name: run the bot
       run: |
-        echo ${{ secrets.TWITTER_API_KEY }}
-        echo ${{ secrets.TWITTER_API_SECRET_KEY }}
-        echo ${{ secrets.TWITTER_ACCESS_TOKEN }}
-        echo ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
         python main.py
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "Github Actions"
