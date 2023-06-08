@@ -1,10 +1,10 @@
-# Project Name
+# Twitter bot
 
 A GitHub Actions Repository for Automated Tweeting of Quotes
 
 ## Overview
 
-This project is a GitHub Actions repository that automates the process of tweeting quotes on Twitter. The repository runs a workflow every hour, which fetches a random quote from a `quotes.json` file and publishes it on Twitter.
+This project is a GitHub Actions repository that automates the process of tweeting quotes on Twitter. The repository runs a workflow every hour, which fetches a random quote from a `quotes.json` file and publishes it on Twitter (https://twitter.com/coronavirusbot0).
 
 ## Features
 
@@ -21,7 +21,7 @@ To use this GitHub Actions repository, you need to have the following:
 
 ## Customization
 
-Feel free to customize this repository to suit your requirements. You can modify the workflow schedule, add additional functionality to the `generate-readme.js` script, or enhance the tweet formatting.
+Feel free to customize this repository to suit your requirements. You can modify the workflow schedule, or enhance the tweet formatting.
 
 ## Contributions
 
