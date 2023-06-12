@@ -19,6 +19,9 @@ To use this GitHub Actions repository, you need to have the following:
 - Add your API keys as secret keys in actions in secrets and variables in settings
 - A `quotes.json` File: Create a JSON file containing a collection of quotes to be tweeted.
 
+## Steps to add workflow
+Go to Actions -> New Workflow -> Configure Python Application -> Edit ppython-app.yml based on requirement -> commit changes
+
 ## Customization
 
 Feel free to customize this repository to suit your requirements. You can modify the workflow schedule, or enhance the tweet formatting.
