@@ -20,7 +20,7 @@ To use this GitHub Actions repository, you need to have the following:
 - A `quotes.json` File: Create a JSON file containing a collection of quotes to be tweeted.
 
 ## Steps to add workflow
-Go to Actions -> New Workflow -> Configure Python Application -> Edit ppython-app.yml based on requirement -> commit changes
+Go to Actions -> New Workflow -> Configure Python Application -> Edit python-app.yml based on requirement -> commit changes
 
 ## Customization
 
