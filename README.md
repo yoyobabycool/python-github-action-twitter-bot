@@ -1,6 +1,6 @@
 # Twitter bot
 
-A GitHub Actions Repository for Automated Tweeting of Quotes
+A GitHub Actions Repository for Automated Tweeting of Quotes Using Python.
 
 ## Overview
 
