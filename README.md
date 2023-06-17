@@ -32,7 +32,7 @@ Contributions to this project are welcome. If you have any ideas, bug fixes, or 
 
 ## Note
 
-Ignore mistakes in readme, this is generated using chatgpt
+Ignore mistakes in readme, this is generated using chatgpt.
 
 ## License
 
