@@ -43,7 +43,7 @@ client = tweepy.Client(consumer_key=consumer_key,
                     access_token=access_token,
                     access_token_secret=access_token_secret)
 # Replace the text with whatever you want to Tweet about
-response = client.create_tweet(text='hello world')
+response = client.create_tweet(text=tweet_text)
 print(f'Tweeted: {tweet_text}')
 next_tweet_index = (tweet_index + 1) 
 if next_tweet_index not in range(0, 15):
