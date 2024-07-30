@@ -30,10 +30,6 @@ Feel free to customize this repository to suit your requirements. You can modify
 
 Contributions to this project are welcome. If you have any ideas, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
-## Note
-
-Ignore mistakes in readme, this is generated using chatgpt.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
