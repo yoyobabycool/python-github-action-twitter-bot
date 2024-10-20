@@ -11,9 +11,11 @@ jobs:
     - name: checkout repo content
       uses: actions/checkout@v2 # 
     - name: Install dependencies
+        with:
+           python-version: '3.12'
+           cache: 'pip'
       run: |
-        apt install pipx
-        pipx install tweepy
+        pip install tweepy
     - name: run the bot
       run: |
         python main.py
