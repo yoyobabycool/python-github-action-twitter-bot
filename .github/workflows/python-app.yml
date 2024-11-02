@@ -5,17 +5,15 @@ on:
   push:
     branches: [ main ]
 jobs:
-  build:
+ build:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v4
-     - uses: actions/setup-python@v5
-       with:
-          python-version: '3.12'
-          cache: 'pip'
-     - run: pip install -r requirements.txt
-    - name: run the bot
+    - name: Checkout repository content
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
       run: |
+        pip install -r requirements.txt
         python main.py
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "Github Actions"
