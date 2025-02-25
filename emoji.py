@@ -21,7 +21,7 @@ if url_response.status_code == 200:
   image_path = f"emoji_image.png"
   if image_url:
     image_response = requests.get(image_url).content
-    if image_response.status_code == 200:
+    if image_response:
       with open(image_path, "wb") as f:
         f.write(image_response)
         media_upload = api.media_upload(image_path)
