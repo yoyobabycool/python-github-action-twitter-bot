@@ -18,13 +18,12 @@ url_response = requests.get(os.environ['EMOJI_URL'])
 if url_response.status_code == 200:
   image_data = url_response.json()
   image_url = image_data.get("url")
-  print(f"image url {image_url}")
   image_path = f"emoji_image.png"
-  print(f"image path {image_path}")
   if image_url:
-    image_response = requests.get(image_url)
+    image_response = requests.get(image_url).content
     if image_response.status_code == 200:
-      with open(image_path,"wb") as file:
+      with open(image_path, "wb") as f:
+          f.write(image_response)
         media_upload = api.media_upload(image_path)
         tweet_text = 'check this!'
         client.create_tweet(text = tweet_text, media_ids=[media_upload.media_id])
