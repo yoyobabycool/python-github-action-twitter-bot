@@ -1,0 +1,23 @@
+name: Run bot
+on:
+  schedule:
+    - cron: '*/120 * * * *'
+  push:
+    branches: [ main ]
+jobs:
+ build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository content
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        python emoji.py
+      env:
+        TWITTER_API_KEY : ${{ secrets.TWITTER_API_KEY }}
+        TWITTER_API_SECRET_KEY : ${{ secrets.TWITTER_API_SECRET_KEY }}
+        TWITTER_ACCESS_TOKEN : ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_TOKEN_SECRET : ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        EMOJI_URL : ${{secrets.EMOJI_URL}}
