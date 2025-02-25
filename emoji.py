@@ -6,7 +6,9 @@ consumer_key = os.environ['TWITTER_API_KEY']
 consumer_secret = os.environ['TWITTER_API_SECRET_KEY']
 access_token = os.environ['TWITTER_ACCESS_TOKEN']
 access_token_secret = os.environ['TWITTER_ACCESS_TOKEN_SECRET']
-
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+api = tweepy.API(auth)
 client = tweepy.Client(consumer_key=consumer_key,
                     consumer_secret=consumer_secret,
                     access_token=access_token,
@@ -23,9 +25,9 @@ if url_response.status_code == 200:
     image_response = requests.get(image_url)
     if image_response.status_code == 200:
       with open(image_path,"wb") as file:
-        media_id = client.media_upload(file=file).media_id_string
+        media_upload = api.media_upload(image_path)
         tweet_text = 'check this!'
-        client.create_tweet(text = tweet_text, media_ids=[media_id])
+        client.create_tweet(text = tweet_text, media_ids=[media_upload.media_id])
         os.remove(image_path)
         print("success")
     else:
