@@ -23,7 +23,7 @@ if url_response.status_code == 200:
     image_response = requests.get(image_url).content
     if image_response.status_code == 200:
       with open(image_path, "wb") as f:
-          f.write(image_response)
+        f.write(image_response)
         media_upload = api.media_upload(image_path)
         tweet_text = 'check this!'
         client.create_tweet(text = tweet_text, media_ids=[media_upload.media_id])
