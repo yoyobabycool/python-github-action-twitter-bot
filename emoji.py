@@ -18,6 +18,7 @@ if url_response.status_code == 200:
   image_url = image_data.get("url")
   print(f"image url {image_url}")
   image_path = os.path.join(os.getcwd(), "emoji_image.png")
+  print(f"image path {image_path}")
   if image_url:
     image_response = requests.get(image_url)
     if image_response.status_code == 200:
