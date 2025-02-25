@@ -18,7 +18,7 @@ if url_response.status_code == 200:
   image_url = image_data.get("url")
   image_path = "emoji_image.png"
   if image_url:
-    image_reponse = requests.get(image_url)
+    image_response = requests.get(image_url)
     if image_response.status_code == 200:
       with open(image_path,"rb") as file:
         media_id = client.media_upload(file=file).media_id_string
