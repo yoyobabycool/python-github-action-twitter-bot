@@ -1,6 +1,6 @@
 # Twitter bot
 
-A GitHub Actions Repository for Automated Tweeting of Quotes Using Python.
+A GitHub Actions Repository for Automated Tweeting of Quotes and Mixed Emojis Using Python.
 
 ## Overview
 
@@ -9,7 +9,8 @@ This project is a GitHub Actions repository that automates the process of tweeti
 ## Features
 
 - Fetches a random quote from `quotes.json` every hour.
-- Tweets the quote on Twitter automatically.
+- Gets emixed emoji from a api and post ever hour
+- Tweets the quote, mixed emoji on Twitter automatically.
 
 ## Prerequisites
 
